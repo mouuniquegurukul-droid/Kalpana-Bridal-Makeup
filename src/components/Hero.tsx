@@ -16,8 +16,8 @@ import { AnimatedText, AnimatedParagraph } from '@/components/ui/animated-text';
  * - If playback fails, keeps button visible to retry.
  * - Plays once without looping, leaves final frame visible.
  */
-const WELCOME_POSTER_WEBP = '/welcome-video-preview.webp';
-const WELCOME_POSTER_JPG = '/welcome-video-preview.jpg';
+const WELCOME_POSTER_WEBP = `${import.meta.env.BASE_URL}welcome-video-preview.webp`;
+const WELCOME_POSTER_JPG = `${import.meta.env.BASE_URL}welcome-video-preview.jpg`;
 const CLOUDINARY_POSTER =
   'https://res.cloudinary.com/a3efqjsz/video/upload/so_0/v1789967817/Woman_welcoming_visitors_in_Bengali-clip-1_20260921102623.jpg';
 

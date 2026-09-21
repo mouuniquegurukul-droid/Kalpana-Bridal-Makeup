@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Kalpana-Bridal-Makeup/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
